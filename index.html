@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor: Over a billion reviews & contributions for Hotels, Flights, and more</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./images/img3.png" type="image/svg+xml">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="./images/img3.png" alt="Tripadvisor Logo" class="logo-icon">
+                <span class="logo-text">Tripadvisor</span>
+            </div>
+
+            <div class="header-search">
+                <i class="fa-solid fa-magnifying-glass header-search-icon"></i>
+                <input type="text" placeholder="Search destinations, hotels...">
+            </div>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#" class="active">Discover</a></li>
+                    <li><a href="#">Hotels</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Review</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="sign-in-btn">Sign in</button>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main-content">
+        <!-- Hero Search Section -->
+        <section class="hero">
+            <h1 class="hero-title">Explore the World's Best Destinations</h1>
+            <div class="search-tabs">
+                <button class="tab active"><i class="fa-solid fa-house"></i> Search All</button>
+                <button class="tab"><i class="fa-solid fa-bed"></i> Hotels</button>
+                <button class="tab"><i class="fa-solid fa-ticket"></i> Things to Do</button>
+                <button class="tab"><i class="fa-solid fa-utensils"></i> Restaurants</button>
+            </div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="Places to go, things to do, hotels...">
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="search-filters">
+                <label>Filters:</label>
+                <select class="filter-select">
+                    <option>Price Range</option>
+                    <option>$ (Budget)</option>
+                    <option>$$ (Mid-range)</option>
+                    <option>$$$ (Luxury)</option>
+                </select>
+                <select class="filter-select">
+                    <option>Rating</option>
+                    <option>4+ Stars</option>
+                    <option>3+ Stars</option>
+                    <option>Any Rating</option>
+                </select>
+            </div>
+        </section>
+
+
+        <!-- Featured Destinations -->
+        <section class="category-section">
+            <h2>Featured Destinations</h2>
+            <p class="subtitle">Top places to visit around the globe</p>
+            <div class="card-grid cols-4">
+                <div class="portrait-card" style="background-image: url('./images/destination_1_1782046302300.png');">
+                    <h3>Rome, Italy</h3>
+                </div>
+                <div class="portrait-card" style="background-image: url('./images/culture_card_1782046257400.png');">
+                    <h3>Paris, France</h3>
+                </div>
+                <div class="portrait-card" style="background-image: url('./images/outdoors_card_1782046227666.png');">
+                    <h3>Las Vegas, NV</h3>
+                </div>
+                <div class="portrait-card" style="background-image: url('./images/water_card_1782046274640.png');">
+                    <h3>London, UK</h3>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Popular Hotels -->
+        <section class="destination-section">
+            <h2>Popular Hotels</h2>
+            <p class="subtitle">Highly rated stays for your next trip</p>
+            <div class="card-grid cols-4">
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/tere.webp');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>Grand Temple Resort</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●●</span> <span class="count">1,204</span>
+                        </div>
+                        <p class="category">Luxury Hotel</p>
+                        <p class="card-description">Experience luxury with breathtaking views and premium amenities.</p>
+                    </div>
+                </div>
+
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/img2.avif');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>Mountain View Lodge</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●○</span> <span class="count">845</span>
+                        </div>
+                        <p class="category">Boutique Stay</p>
+                        <p class="card-description">A cozy retreat nestled in the hills, perfect for nature lovers.</p>
+                    </div>
+                </div>
+                
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/villa.jpg');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>Oceanfront Villas</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●●</span> <span class="count">2,310</span>
+                        </div>
+                        <p class="category">Resort</p>
+                        <p class="card-description">Wake up to the sound of waves in these premium beachfront villas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/heritage.webp');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>City Center Heritage</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●○</span> <span class="count">520</span>
+                        </div>
+                        <p class="category">Heritage Hotel</p>
+                        <p class="card-description">Stay in the heart of the city with rich history and culture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Top-rated Restaurants -->
+        <section class="destination-section">
+            <h2>Top-rated Restaurants</h2>
+            <p class="subtitle">Discover culinary excellence</p>
+            <div class="card-grid cols-3">
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/food_card_1782046242300.png');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>The Rustic Spoon</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●●</span> <span class="count">980</span>
+                        </div>
+                        <p class="category">Fine Dining • $$$</p>
+                        <p class="card-description">Authentic local cuisine made with the freshest farm-to-table
+                            ingredients.</p>
+                    </div>
+                </div>
+
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/speice2.jpg');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>Spice Route</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●○</span> <span class="count">450</span>
+                        </div>
+                        <p class="category">Asian Fusion • $$</p>
+                        <p class="card-description">A vibrant explosion of flavors combining traditional recipes with a
+                            modern twist.</p>
+                    </div>
+                </div>
+                
+                <div class="dest-card">
+                    <div class="card-img" style="background-image: url('./images/adhitya-sibikumar-AEtzq5OADpo-unsplash.jpg');">
+                        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                    <div class="card-info">
+                        <h3>The Greenery Cafe</h3>
+                        <div class="reviews">
+                            <span class="bubbles">●●●●●</span> <span class="count">1,120</span>
+                        </div>
+                        <p class="category">Cafe • $</p>
+                        <p class="card-description">A quiet, beautiful outdoor cafe offering artisan coffee and
+                            pastries.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Travellers Choice Banner -->
+        <section class="banner split-banner dark-banner">
+            <div class="banner-content">
+                <div class="tc-logo"><i class="fa-solid fa-award"></i></div>
+                <h2>Travellers' Choice<br>Awards Best of the<br>Best</h2>
+                <p>Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+                <button class="btn yellow-btn">See the winners</button>
+            </div>
+            <div class="banner-img" style="background-image: url('./images/travelling2.jpg');"></div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>About Tripadvisor</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Press</a>
+                    <a href="#">Resources and Policies</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <a href="#">Write a review</a>
+                    <a href="#">Add a Place</a>
+                    <a href="#">Join</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Do Business With Us</h4>
+                    <a href="#">Owners & DMO/CVB</a>
+                    <a href="#">Business Advantage</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Get The App</h4>
+                    <a href="#">iPhone App</a>
+                    <a href="#">Android App</a>
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+                <div class="logo">
+                    <img src="./images/img3.png" alt="Tripadvisor" class="logo-icon">
+                </div>
+                <div class="copyright">
+                    <p>© 2026 Tripadvisor LLC All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Privacy and Cookies Statement</a>
+                        <a href="#">Site Map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
